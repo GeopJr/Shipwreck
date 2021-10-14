@@ -32,7 +32,8 @@
 			})
 		}).then((r) => r.json());
 		forceDisable = false;
-		if (res.run_request.run.exit_code === 1) return;
+		// if (res.run_request.run.exit_code === 1) return;
+		if (!res?.run_request?.run?.html_url) return;
 		window.open(res.run_request.run.html_url, '_blank').focus();
 	}
 
