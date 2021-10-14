@@ -24,7 +24,9 @@ jobs:
           version: 6.17.0
           run_install: true
       - name: Run build
-        run: pnpm run build
+        run: |
+          pnpm run build
+          echo "shipwreck.geopjr.dev" > ./build/CNAME
       - name: Push to pages
         uses: peaceiris/actions-gh-pages@v3
         with:
