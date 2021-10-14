@@ -1,5 +1,5 @@
 import { execSync } from 'child_process';
-import { write, writeFileSync } from 'fs';
+import { rmSync, writeFileSync } from 'fs';
 
 export function genCrystalExample(code, input) {
 	const mainStruct = code.match(/struct (?<struct>O_.+)\n/)?.groups?.struct;
@@ -12,7 +12,8 @@ export function genCrystalExample(code, input) {
 export function crystalRun(code) {
 	// Running from stdin causes errors, fallback to writing to file
 	writeFileSync('test.cr', code);
-	return execSync(`crystal run test.cr`, {
+	execSync(`crystal run test.cr`, {
 		stdio: 'inherit'
 	});
+	rmSync('test.cr');
 }
