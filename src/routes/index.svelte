@@ -41,7 +41,7 @@
 		let res = true;
 		try {
 			const parsed = JSON.parse(json);
-			if (typeof parsed.push === 'function') res = false;
+			if (typeof parsed.push === 'function' || typeof parsed !== 'object') res = false;
 		} catch {
 			res = false;
 		}
