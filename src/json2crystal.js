@@ -8,6 +8,67 @@ const crystallies = {
 	undefined: 'Nil'
 };
 
+const reserved = [
+	'abstract',
+	'do',
+	'if',
+	'nil?',
+	'select',
+	'union',
+	'alias',
+	'else',
+	'in',
+	'of',
+	'self',
+	'unless',
+	'as',
+	'elsif',
+	'include',
+	'out',
+	'sizeof',
+	'until',
+	'as?',
+	'end',
+	'instance_sizeof',
+	'pointerof',
+	'struct',
+	'verbatim',
+	'asm',
+	'ensure',
+	'is_a?',
+	'private',
+	'super',
+	'when',
+	'begin',
+	'enum',
+	'lib',
+	'protected',
+	'then',
+	'while',
+	'break',
+	'extend',
+	'macro',
+	'require',
+	'true',
+	'with',
+	'case',
+	'false',
+	'module',
+	'rescue',
+	'type',
+	'yield',
+	'class',
+	'for',
+	'next',
+	'responds_to?',
+	'typeof',
+	'def',
+	'fun',
+	'nil',
+	'return',
+	'uninitialized'
+];
+
 export default function (json, optimize = false) {
 	const entries = Object.entries(JSON.parse(json));
 	if (entries.length === 0) return '';
@@ -93,7 +154,7 @@ function handleArray(arr, setter) {
 }
 
 function isVarSafe(variable) {
-	return /^[a-z][a-zA-Z_0-9]*$/.test(variable);
+	return /^[a-z][a-zA-Z_0-9]*$/.test(variable) && !reserved.includes(variable.toLowerCase());
 }
 
 function randomID() {
