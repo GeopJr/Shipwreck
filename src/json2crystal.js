@@ -91,7 +91,7 @@ export default function (json, optimize = false) {
 			let variable = body[j][0];
 			let shouldNewLine = false;
 			if (!isVarSafe(variable)) {
-				structArr.push(`\t@[JSON::Field(key: "${variable}")]`);
+				structArr.push(`\t@[JSON::Field(key: ${JSON.stringify(variable)})]`);
 				// Reuse or generate new random variable name
 				variable =
 					'n_' +
