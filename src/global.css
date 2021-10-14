@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+html,
+body {
+	background: rgb(252, 244, 52);
+	color: white;
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(
+		135deg,
+		rgba(252, 244, 52, 1) 0%,
+		rgba(252, 252, 252, 1) 33%,
+		rgba(156, 89, 209, 1) 66%,
+		rgba(44, 44, 44, 1) 100%
+	);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+button,
+.carcBtn,
+.optimizeText {
+	font-family: 'Fredoka One', cursive;
+}
+
+textarea,
+.bigInput {
+	font-family: monospace, monospace;
+}
+
+span {
+	display: inline-flex;
+	align-items: center;
+}
