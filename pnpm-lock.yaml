@@ -7,7 +7,7 @@ specifiers:
   eslint-config-prettier: 8.3.0
   eslint-plugin-svelte3: 3.2.1
   fast-deep-equal: 3.1.3
-  prettier: 2.4.1
+  prettier: 2.5.0
   prettier-plugin-svelte: 2.5.0
   ress: 4.0.0
   svelte: 3.44.2
@@ -18,12 +18,12 @@ dependencies:
 
 devDependencies:
   '@sveltejs/adapter-static': 1.0.0-next.21
-  '@sveltejs/kit': 1.0.0-next.196_svelte@3.44.2
+  '@sveltejs/kit': 1.0.0-next.200_svelte@3.44.2
   eslint: 8.3.0
   eslint-config-prettier: 8.3.0_eslint@8.3.0
   eslint-plugin-svelte3: 3.2.1_eslint@8.3.0+svelte@3.44.2
-  prettier: 2.4.1
-  prettier-plugin-svelte: 2.5.0_prettier@2.4.1+svelte@3.44.2
+  prettier: 2.5.0
+  prettier-plugin-svelte: 2.5.0_prettier@2.5.0+svelte@3.44.2
   svelte: 3.44.2
 
 packages:
@@ -72,8 +72,8 @@ packages:
     resolution: {integrity: sha512-B4+QoUVAaANKx+mHntG8SqF45zbj3Ct4Akg/cGauo6COyfKZRhO5OsMa+wPuT2TKJBZC4eEDK0p+p9nyQBkxKQ==}
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.196_svelte@3.44.2:
-    resolution: {integrity: sha512-z7sA/2/3Il5biibjPXCYXJC11TyFhgCvMaJvvbtMnu2l3EmOmJBMS+r2djGptzfFsugSVNwGQFn8+ldWQWq3jA==}
+  /@sveltejs/kit/1.0.0-next.200_svelte@3.44.2:
+    resolution: {integrity: sha512-UuUiZ5HhqQyjfq/MP3ak+zfzwh3jm+AOJ5n5tncfAd8B9lUWiuNBcYw9VHvxjO63t1eKsNbf3l7TIvfuUO6NBA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -800,18 +800,18 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-svelte/2.5.0_prettier@2.4.1+svelte@3.44.2:
+  /prettier-plugin-svelte/2.5.0_prettier@2.5.0+svelte@3.44.2:
     resolution: {integrity: sha512-+iHY2uGChOngrgKielJUnqo74gIL/EO5oeWm8MftFWjEi213lq9QYTOwm1pv4lI1nA61tdgf80CF2i5zMcu1kw==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
     dependencies:
-      prettier: 2.4.1
+      prettier: 2.5.0
       svelte: 3.44.2
     dev: true
 
-  /prettier/2.4.1:
-    resolution: {integrity: sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==}
+  /prettier/2.5.0:
+    resolution: {integrity: sha512-FM/zAKgWTxj40rH03VxzIPdXmj39SwSjwG0heUcNFwI+EMZJnY93yAiKXM3dObIKAM5TA88werc8T/EwhB45eg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
