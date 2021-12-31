@@ -21,22 +21,25 @@
 
 		
 
-		<link rel="modulepreload" href="/_app/start-d11977be.js">
-		<link rel="modulepreload" href="/_app/chunks/vendor-3a81be8b.js">
 		<link rel="stylesheet" href="/_app/assets/start-61d1577b.css">
+		<link rel="modulepreload" href="/_app/start-67580372.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-25d07873.js">
 
 		<script type="module">
-			import { start } from "/_app/start-d11977be.js";
+			import { start } from "/_app/start-67580372.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":""},
 				session: {},
-				host: location.host,
 				route: true,
 				spa: true,
 				trailing_slash: "never",
 				hydrate: null
 			});
+		</script><script>
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('/service-worker.js');
+			}
 		</script>
 	</head>
 	<body>
