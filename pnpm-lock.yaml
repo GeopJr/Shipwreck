@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@sveltejs/adapter-static': 1.0.0-next.27
+  '@sveltejs/adapter-static': 1.0.0-next.28
   '@sveltejs/kit': next
   eslint: 8.8.0
   eslint-config-prettier: 8.3.0
@@ -17,8 +17,8 @@ dependencies:
   ress: 4.0.0
 
 devDependencies:
-  '@sveltejs/adapter-static': 1.0.0-next.27
-  '@sveltejs/kit': 1.0.0-next.262_svelte@3.46.4
+  '@sveltejs/adapter-static': 1.0.0-next.28
+  '@sveltejs/kit': 1.0.0-next.265_svelte@3.46.4
   eslint: 8.8.0
   eslint-config-prettier: 8.3.0_eslint@8.8.0
   eslint-plugin-svelte3: 3.4.0_eslint@8.8.0+svelte@3.46.4
@@ -68,14 +68,14 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /@sveltejs/adapter-static/1.0.0-next.27:
-    resolution: {integrity: sha512-dcN1p1D7ZY/a9SClfN14mgm9pyWbLxdwM9gzPMZG6xXOoqMtwI03aZOFgGGumHPdv+XcGRZM96vUSRoDm6vBJQ==}
+  /@sveltejs/adapter-static/1.0.0-next.28:
+    resolution: {integrity: sha512-c4xLyeSwnbGQxe4f1SLpHTbxZDm3TEr43scR3tOlVgQN+mnAL9aDdl3nTtdzWmrUDmDEmY4GriAwLyFLZuINLw==}
     dependencies:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.262_svelte@3.46.4:
-    resolution: {integrity: sha512-3ZFeQi4V5GYnTsfHjfnxBoMqPW8hcKNFZJXWs8Lsmnh2h/j8hAlaOBYcHc2a8CH4BwjnZ+f9suBsDkrpUSNoaw==}
+  /@sveltejs/kit/1.0.0-next.265_svelte@3.46.4:
+    resolution: {integrity: sha512-7Y79kfJ3VRAqQ8w05wgI/im3jmR/Hy7/FN7rdKVYf5xuW6X4gwqM1qjWKIdQUTFWIgg3B/XIuCZZsfrGC064eA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
