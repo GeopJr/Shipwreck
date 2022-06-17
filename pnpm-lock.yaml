@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@sveltejs/adapter-static': 1.0.0-next.34
   '@sveltejs/kit': next
-  eslint: 8.17.0
+  eslint: 8.18.0
   eslint-config-prettier: 8.5.0
   eslint-plugin-svelte3: 4.0.0
   fast-deep-equal: 3.1.3
@@ -19,9 +19,9 @@ dependencies:
 devDependencies:
   '@sveltejs/adapter-static': 1.0.0-next.34
   '@sveltejs/kit': 1.0.0-next.350_svelte@3.48.0
-  eslint: 8.17.0
-  eslint-config-prettier: 8.5.0_eslint@8.17.0
-  eslint-plugin-svelte3: 4.0.0_3aft6623ti3qaietkx5ojwfh2e
+  eslint: 8.18.0
+  eslint-config-prettier: 8.5.0_eslint@8.18.0
+  eslint-plugin-svelte3: 4.0.0_wy4erphnvhealet26qderqv6bu
   prettier: 2.7.1
   prettier-plugin-svelte: 2.7.0_nakrehnrzdf7fdea5k3a4dfy4m
   svelte: 3.48.0
@@ -480,22 +480,22 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-prettier/8.5.0_eslint@8.17.0:
+  /eslint-config-prettier/8.5.0_eslint@8.18.0:
     resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
     dependencies:
-      eslint: 8.17.0
+      eslint: 8.18.0
     dev: true
 
-  /eslint-plugin-svelte3/4.0.0_3aft6623ti3qaietkx5ojwfh2e:
+  /eslint-plugin-svelte3/4.0.0_wy4erphnvhealet26qderqv6bu:
     resolution: {integrity: sha512-OIx9lgaNzD02+MDFNLw0GEUbuovNcglg+wnd/UY0fbZmlQSz7GlQiQ1f+yX0XvC07XPcDOnFcichqI3xCwp71g==}
     peerDependencies:
       eslint: '>=8.0.0'
       svelte: ^3.2.0
     dependencies:
-      eslint: 8.17.0
+      eslint: 8.18.0
       svelte: 3.48.0
     dev: true
 
@@ -507,13 +507,13 @@ packages:
       estraverse: 5.2.0
     dev: true
 
-  /eslint-utils/3.0.0_eslint@8.17.0:
+  /eslint-utils/3.0.0_eslint@8.18.0:
     resolution: {integrity: sha512-uuQC43IGctw68pJA1RgbQS8/NP7rch6Cwd4j3ZBtgo4/8Flj4eGE7ZYSZRN3iq5pVUv6GPdW5Z1RFleo84uLDA==}
     engines: {node: ^10.0.0 || ^12.0.0 || >= 14.0.0}
     peerDependencies:
       eslint: '>=5'
     dependencies:
-      eslint: 8.17.0
+      eslint: 8.18.0
       eslint-visitor-keys: 2.1.0
     dev: true
 
@@ -527,8 +527,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /eslint/8.17.0:
-    resolution: {integrity: sha512-gq0m0BTJfci60Fz4nczYxNAlED+sMcihltndR8t9t1evnU/azx53x3t2UHXC/uRjcbvRw/XctpaNygSTcQD+Iw==}
+  /eslint/8.18.0:
+    resolution: {integrity: sha512-As1EfFMVk7Xc6/CvhssHUjsAQSkpfXvUGMFC3ce8JDe6WvqCgRrLOBQbVpsBFr1X1V+RACOadnzVvcUS5ni2bA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -541,7 +541,7 @@ packages:
       doctrine: 3.0.0
       escape-string-regexp: 4.0.0
       eslint-scope: 7.1.1
-      eslint-utils: 3.0.0_eslint@8.17.0
+      eslint-utils: 3.0.0_eslint@8.18.0
       eslint-visitor-keys: 3.3.0
       espree: 9.3.2
       esquery: 1.4.0
@@ -1044,7 +1044,7 @@ packages:
     dev: true
 
   /text-table/0.2.0:
-    resolution: {integrity: sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=}
+    resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
     dev: true
 
   /tiny-glob/0.2.9:
@@ -1121,5 +1121,5 @@ packages:
     dev: true
 
   /wrappy/1.0.2:
-    resolution: {integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=}
+    resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
