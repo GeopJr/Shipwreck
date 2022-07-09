@@ -154,6 +154,7 @@
 		border-radius: 10px 0%;
 		transition-duration: 200ms;
 		border: 2px solid white;
+		color: white;
 	}
 
 	.carcBtn:hover {
