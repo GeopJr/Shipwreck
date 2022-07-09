@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@sveltejs/adapter-static': 1.0.0-next.34
+  '@sveltejs/adapter-static': 1.0.0-next.35
   '@sveltejs/kit': next
   eslint: 8.19.0
   eslint-config-prettier: 8.5.0
@@ -18,7 +18,7 @@ dependencies:
   ress: 5.0.2
 
 devDependencies:
-  '@sveltejs/adapter-static': 1.0.0-next.34
+  '@sveltejs/adapter-static': 1.0.0-next.35
   '@sveltejs/kit': 1.0.0-next.367_svelte@3.49.0+vite@2.9.13
   eslint: 8.19.0
   eslint-config-prettier: 8.5.0_eslint@8.19.0
@@ -70,8 +70,8 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /@sveltejs/adapter-static/1.0.0-next.34:
-    resolution: {integrity: sha512-XjuMhemme5z0L/B2nTZpA6k+RJjF+b6L96ts6gIQ6ixiCzJQSbBqJhrrBYBCaeLAKvdUMoGEmX8m862JhKjRFg==}
+  /@sveltejs/adapter-static/1.0.0-next.35:
+    resolution: {integrity: sha512-iIg5nCMJF2/s/Y7zmy9pzp+U3YDBL6OQKmwfJm2H3Afde/XlhOuNlSO6K//hxmLmvrd7Oh6Kb0MLhwVKp0cuUA==}
     dependencies:
       tiny-glob: 0.2.9
     dev: true
