@@ -1,19 +1,7 @@
-<script context="module">
-	export function load({ error, status }) {
-		return {
-			props: {
-				status: status,
-				error: error.message
-			}
-		};
-	}
-</script>
-
 <script>
+	import { page } from '$app/stores';
 	import '../global.css';
 	import 'ress/dist/ress.min.css';
-	export let status;
-	export let error;
 </script>
 
 <svelte:head>
@@ -23,8 +11,8 @@
 
 <main>
 	<div class="overlay">
-		<h1>{status}</h1>
-		<h2>{error}</h2>
+		<h1>{$page.status}</h1>
+		<h2>{$page.error.message}</h2>
 	</div>
 </main>
 
