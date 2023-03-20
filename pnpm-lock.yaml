@@ -4,7 +4,7 @@ specifiers:
   '@sveltejs/adapter-static': 1.0.6
   '@sveltejs/kit': next
   eslint: 8.33.0
-  eslint-config-prettier: 8.6.0
+  eslint-config-prettier: 8.8.0
   eslint-plugin-svelte3: 4.0.0
   fast-deep-equal: 3.1.3
   prettier: 2.8.3
@@ -21,7 +21,7 @@ devDependencies:
   '@sveltejs/adapter-static': 1.0.6_l5ueyfihz3gpzzvvyo2ean5u3e
   '@sveltejs/kit': 1.0.0-next.589_svelte@3.55.1+vite@4.1.1
   eslint: 8.33.0
-  eslint-config-prettier: 8.6.0_eslint@8.33.0
+  eslint-config-prettier: 8.8.0_eslint@8.33.0
   eslint-plugin-svelte3: 4.0.0_4omm2ewoudhgnmf7aocafatnc4
   prettier: 2.8.3
   prettier-plugin-svelte: 2.9.0_kdmmghgdi3ngrsq6otxkjilbry
@@ -519,8 +519,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-prettier/8.6.0_eslint@8.33.0:
-    resolution: {integrity: sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==}
+  /eslint-config-prettier/8.8.0_eslint@8.33.0:
+    resolution: {integrity: sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
