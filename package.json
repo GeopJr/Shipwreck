@@ -10,7 +10,7 @@
 		"test": "node tests/basic.js && node tests/advanced.js"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "1.0.6",
+		"@sveltejs/adapter-static": "2.0.2",
 		"@sveltejs/kit": "next",
 		"eslint": "8.33.0",
 		"eslint-config-prettier": "8.6.0",
